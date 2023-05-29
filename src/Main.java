@@ -12,6 +12,14 @@ public class Main {
         System.out.println("dog = " + dog);
         System.out.println("cat = " + cat);
         System.out.println("paper = " + paper);
-
+        //Задача 2. Изменяем значения переменных.
+        dog += 4;
+        cat += 4;
+        paper += 4;
+        //выод переменных в консоль
+        System.out.println("Увеличенные значения переменных на 4");
+        System.out.println("dog = " + dog);
+        System.out.println("cat = " + cat);
+        System.out.println("paper = " + paper);
     }
 }
