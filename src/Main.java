@@ -9,7 +9,7 @@ public class Main {
         var secondFighter = 82.7;
         var totalMass = firstFighter + secondFighter;
         var massDifference = Math.abs(firstFighter - secondFighter);
-        //выод переменных в консоль
+        //вывод переменных каждых действий в консоль
         System.out.println("Масса первого бойца = " + firstFighter);
         System.out.println("Масса второго бойца = " + secondFighter);
         System.out.println("Суммарная самма бойцов = " + totalMass);
