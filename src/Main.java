@@ -3,32 +3,16 @@ public class Main {
     public static void main(String[] args) {
         // Press Alt+Enter with your caret at the highlighted text to see how
         // IntelliJ IDEA suggests fixing it.
-        System.out.println("Выполнение домашней работы №2.");
-        //Задача 1. Иничиализация переменных.
-        var dog = 8.0;
-        var cat = 3.6;
-        var paper = 763789;
-        //выод переменных в консоль
-        System.out.println("dog = " + dog);
-        System.out.println("cat = " + cat);
-        System.out.println("paper = " + paper);
-        //Задача 2. Увеличиваем значения переменных.
-        dog += 4;
-        cat += 4;
-        paper += 4;
-        //выод переменных в консоль
-        System.out.println("Увеличенные значения переменных на 4");
-        System.out.println("dog = " + dog);
-        System.out.println("cat = " + cat);
-        System.out.println("paper = " + paper);
-        //Задача 3.Уменьшаем значения переменных.
-        dog -= 3.5;
-        cat -= 1.6;
-        paper -= 7639;
-        //выод переменных в консоль
-        System.out.println("Уменьшенные значения переменных");
-        System.out.println("dog = " + dog);
-        System.out.println("cat = " + cat);
-        System.out.println("paper = " + paper);
+        System.out.println("Задача 6.");
+        //Задача 6. Иничиализация переменных.
+        var firstFighter = 78.2;
+        var secondFighter = 82.7;
+        var totalMass = firstFighter + secondFighter;
+        var massDifference = Math.abs(firstFighter - secondFighter);
+        //вывод переменных каждых действий в консоль
+        System.out.println("Масса первого бойца = " + firstFighter);
+        System.out.println("Масса второго бойца = " + secondFighter);
+        System.out.println("Суммарная самма бойцов = " + totalMass);
+        System.out.println("Разница масс бойцов = " + massDifference);
     }
 }
