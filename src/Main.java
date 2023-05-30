@@ -3,32 +3,16 @@ public class Main {
     public static void main(String[] args) {
         // Press Alt+Enter with your caret at the highlighted text to see how
         // IntelliJ IDEA suggests fixing it.
-        System.out.println("Выполнение домашней работы №2.");
-        //Задача 1. Иничиализация переменных.
-        var dog = 8.0;
-        var cat = 3.6;
-        var paper = 763789;
-        //выод переменных в консоль
-        System.out.println("dog = " + dog);
-        System.out.println("cat = " + cat);
-        System.out.println("paper = " + paper);
-        //Задача 2. Увеличиваем значения переменных.
-        dog += 4;
-        cat += 4;
-        paper += 4;
-        //выод переменных в консоль
-        System.out.println("Увеличенные значения переменных на 4");
-        System.out.println("dog = " + dog);
-        System.out.println("cat = " + cat);
-        System.out.println("paper = " + paper);
-        //Задача 3.Уменьшаем значения переменных.
-        dog -= 3.5;
-        cat -= 1.6;
-        paper -= 7639;
-        //выод переменных в консоль
-        System.out.println("Уменьшенные значения переменных");
-        System.out.println("dog = " + dog);
-        System.out.println("cat = " + cat);
-        System.out.println("paper = " + paper);
+        System.out.println("Задача 8.");
+        //Задача 8. Иничиализация переменных.
+        var workingHours = 640;
+        var employeeHours = 8;
+
+        //вывод результатов операции
+
+        System.out.println("Всего работников в компании - " + workingHours/employeeHours + " человек");
+
+        System.out.println("Если в компании работает " + (workingHours/employeeHours + 94) +
+                " человек(а), то всего " + (workingHours + employeeHours * 94) + " часа(ов) работы может быть поделено между сотрудниками");
     }
 }
