@@ -8,7 +8,7 @@ public class Main {
         var firstFighter = 78.2;
         var secondFighter = 82.7;
 
-        //выод переменных в консоль
+        //вывод переменных в консоль двумя разными способами определения разницы масс
         System.out.println("Масса первого бойца = " + firstFighter);
         System.out.println("Масса второго бойца = " + secondFighter);
         var massDifference = secondFighter - firstFighter;
